@@ -1,0 +1,48 @@
+<!-- <div class="container">
+    <mat-card>
+        <form>
+            <div class="col-md-12">
+                <div class="col-md-6">
+                    <mat-form-field>
+                        <mat-label>Username</mat-label>
+                        <input matInput placeholder="UserName">
+                      </mat-form-field>
+                </div>
+                <div class="col-md-6">
+                    <mat-form-field>
+                        <mat-label>Password</mat-label>
+                        <input matInput placeholder="Password">
+                      </mat-form-field>
+                </div>
+            </div>
+          </form>          
+    </mat-card>
+</div> -->
+<div class="main_wrap">
+    <div class="container">
+      <div class="row" style="margin: 0 auto;">
+        <div class="col-xl-4" style="margin: 0 auto;">
+          <mat-card class="row example-card parent mat-elevation-z3">
+            <div class="block child">
+              <p style="margin-top: 13px;font-family: Palatino, Palatino Linotype, Georgia, Times, Times New Roman, serif;">HirePro</p>
+              <mat-form-field class="example-full-width col-md-12" style="color :gray;">
+                <mat-label style="font-size: 18;font-family: Arial, Helvetica, sans-serif;">User Id</mat-label>
+                <input matInput placeholder="userName" [(ngModel)]="userName">
+                <mat-icon matSuffix>account_circle</mat-icon>
+              </mat-form-field>
+              <mat-form-field class="col-md-12" style="color :gray;" >
+                <mat-label>Password</mat-label>
+                <input matInput [(ngModel)]="passwords" name="passwords">
+                <mat-icon matSuffix>lock</mat-icon>
+              </mat-form-field>
+              <div><a routerLink="/">Forgot Password?</a></div>
+              <div>
+                <button mat-raised-button  class="btn-style" (click)="onnewuser()" >New User</button>
+                <button mat-raised-button  class="btn-style1" (click)="onsaveclick()">Login</button>
+              </div>
+            </div>
+          </mat-card>
+        </div>
+      </div>
+    </div>
+    </div>

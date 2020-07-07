@@ -1,0 +1,42 @@
+<div class="main_wrap" style="overflow: hidden;">
+    <div class="container">
+      <div class="row" style="margin: 0 auto;">
+        <div class="col-xl-4" style="margin: 0 auto;">
+          <mat-card class="row example-card mat-elevation-z3">
+            <p style="margin-top: 13px;font-weight: bold; font-family: Palatino, Palatino Linotype, Georgia, Times, Times New Roman, serif;">JobPosting</p>
+            <div class="block">
+              <mat-form-field class="col-md-6 child" style="margin-left: 1px; color :gray; width: 320px; " appearance="outline">
+                <mat-label>Jobposting</mat-label>
+                <input matInput  name="jobposting" [(ngModel)]="jobposting">
+                <mat-icon matSuffix>account_circle</mat-icon>
+              </mat-form-field>
+              <mat-form-field class="col-md-6 child" style="color :gray; width: 320px;" appearance="outline">
+                <mat-label>Location</mat-label>
+                <input matInput  name="joblocaion" [(ngModel)]="joblocaion">
+                <mat-icon matSuffix>lock</mat-icon>
+              </mat-form-field>
+              <mat-form-field class="col-md-12" style="width: 80%;">
+                <mat-label>Role</mat-label>
+                <input matInput name="jobrole" [(ngModel)]="jobrole">
+              </mat-form-field>
+              <mat-form-field class="col-md-12" style="width: 80%;">
+                <mat-label>Description</mat-label>
+                <textarea matInput name="description" [(ngModel)]="description"></textarea>
+              </mat-form-field>
+              <mat-form-field class="col-md-12" style="width: 80%;">
+                <mat-label>Responsibilties</mat-label>
+                <textarea matInput name="responsibilties" [(ngModel)]="responsibilties"></textarea>
+              </mat-form-field>
+              <mat-form-field class="col-md-12" style="width: 80%;">
+                <mat-label>Qualification</mat-label>
+                <textarea matInput name="qualification" [(ngModel)]="qualification"></textarea>
+              </mat-form-field>
+              <div>
+                <button mat-raised-button  class="btn-style1" (click)="onsaveclick()">Submit</button>
+              </div>
+            </div>
+          </mat-card>
+        </div>
+      </div>
+    </div>
+    </div>

@@ -1,0 +1,21 @@
+table {
+    width: 100%;
+  }
+  
+  .mat-form-field {
+    font-size: 14px;
+    width: 20%;
+  }
+  th{
+    font-size: 20px;
+  }
+  td, th {
+    width: 18%;
+  }
+  .joblist{
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 10%;
+    margin-top: 2%;
+
+  }

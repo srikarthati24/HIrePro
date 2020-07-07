@@ -1,0 +1,47 @@
+<div class="container">
+    <div class="signup-form">
+        <mat-card class="row example-card parent mat-elevation-z3">
+            <div class="block child">
+              <p style="margin-top: 13px;font-family: Palatino, Palatino Linotype, Georgia, Times, Times New Roman, serif;">Sign Up</p>
+              <mat-form-field class="col-md-12" style="color :gray;" >
+                <mat-label>FullName</mat-label>
+                <input matInput  name="fullname" [(ngModel)]="fullname" required>
+                <!-- <mat-icon matSuffix>account_circle</mat-icon> -->
+              </mat-form-field>
+              <mat-form-field class="col-md-12" style="color :gray;" >
+                <mat-label>Desgination</mat-label>
+                <input matInput  name="desgination" [(ngModel)]="desgination" required>
+                <!-- <mat-icon matSuffix>lock</mat-icon> -->
+              </mat-form-field>
+              <mat-form-field class="col-md-12" style="color :gray;" >
+                <mat-label>Email</mat-label>
+                <input matInput  name="email" [(ngModel)]="email" required>
+                <!-- <mat-icon matSuffix>lock</mat-icon> -->
+              </mat-form-field>
+              <mat-form-field class="col-md-12" style="color :gray;" >
+                <mat-label>Mobile No</mat-label>
+                <input matInput  name="mobileno" [(ngModel)]="mobileno" required>
+                <!-- <mat-icon matSuffix>lock</mat-icon> -->
+              </mat-form-field>
+              <mat-form-field class="col-md-12" style="color :gray;">
+                <mat-label>Password</mat-label>
+                <input matInput  name="password" [(ngModel)]="password" required>
+                <!-- <mat-icon matSuffix>lock</mat-icon> -->
+              </mat-form-field>
+              <mat-form-field class="col-md-12" style="color :gray;" >
+                <mat-label>CreatePassword</mat-label>
+                <input matInput  name="createpassword" [(ngModel)]="createpassword" required>
+                <!-- <mat-icon matSuffix>lock</mat-icon> -->
+              </mat-form-field>
+              <mat-form-field class="col-md-12" style="color :gray;" >
+                <mat-label>AccessLevel</mat-label>
+                <input matInput  name="accesslevel" [(ngModel)]="accesslevel" required>
+                <!-- <mat-icon matSuffix>lock</mat-icon> -->
+              </mat-form-field>
+            </div>
+            <div>
+                <button mat-raised-button  class="btn-style1" (click)="onsaveclick()">SignUp</button>
+            </div>
+            <div class="text-center">Already have an account? <a routerLink="/login">Sign in</a></div>
+    </mat-card>
+    </div>

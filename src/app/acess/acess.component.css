@@ -1,0 +1,23 @@
+table {
+    width: 80%;
+  }
+  
+  .mat-form-field {
+    font-size: 14px;
+    width: 50%;
+  }
+  
+  td, th {
+    width: 15%;
+  }
+  .btn-style{
+    background-color:#cc3333;
+    color: white;
+    width : 120px;
+    height: 50px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    font-size: 18px;
+    margin-left: 15px;
+    border-radius: 30px;
+}
