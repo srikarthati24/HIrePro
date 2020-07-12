@@ -11,5 +11,7 @@ export class DialogBoxxComponent implements OnInit {
 
   ngOnInit(): void {
   }
-
+  onsaveclick(){
+    
+  }
 }
